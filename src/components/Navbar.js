@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
              <Link
-                to='/'
+                to='/TalentPool'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -47,7 +47,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+                to='/BriLifeTalks'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -56,7 +56,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+                to='/Assesment'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -65,7 +65,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+                to='/Lms'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -75,7 +75,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/'
+                to='/SignUp'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
