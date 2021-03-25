@@ -3,8 +3,10 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import TalentPool from './components/pages/TalentPool';
+import BriLifeTalks from './components/pages/BriLifeTalks';
+import Assesment from './components/pages/Assesment';
+import Lms from './components/pages/Lms';
 import SignUp from './components/pages/SignUp';
 
 function App() {
@@ -14,9 +16,11 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/' component={Services} />
-          <Route path='/' component={Products} />
-          <Route path='/' component={SignUp} />
+          <Route path='/TalentPool' exact component={TalentPool} />
+          <Route path='/BriLifeTalks' component={BriLifeTalks} />
+          <Route path='/Assesment' component={Assesment} />
+          <Route path='/Lms' component={Lms} />
+          <Route path='/SignUp' component={SignUp} />
         </Switch>
       </Router>
     </>
